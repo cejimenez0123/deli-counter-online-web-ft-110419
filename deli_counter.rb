@@ -14,12 +14,10 @@ def line(katz_deli)
 end
 end
 def take_a_number(katz_deli,name)
-customer = katz_deli[katz_deli.length-1]
   if katz_deli.length < 1
     katz_deli << name
-     puts customer
+     puts katz_deli[]
   else katz_deli.length >= 1
-    binding.pry
-        puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+    katz_deli.each { |customer| puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."}
   end
 end
