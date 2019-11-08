@@ -18,7 +18,7 @@ def take_a_number(katz_deli,name)
     katz_deli << name
      puts name
   else katz_deli.length >= 1
-   y = "Welcome, #{name}."
+   y = "Welcome, #{katz_deli[katz_deli.length]}."
    j = "You are number #{katz_deli.length} in line."
   end
   puts y.concat(j)
