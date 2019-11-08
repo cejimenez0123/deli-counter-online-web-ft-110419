@@ -18,7 +18,7 @@ def take_a_number(katz_deli,name)
     katz_deli << name
      puts name
   else katz_deli.length >= 1
-puts "K"
+puts "Welcome, #{name}"
   end
 
 end
