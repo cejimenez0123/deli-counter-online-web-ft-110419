@@ -10,6 +10,6 @@ def line(katz_deli)
    number = "#{index}. #{customer} "
    statement << number
  end
-   puts statement
+   puts statement.strip
 end
 end
