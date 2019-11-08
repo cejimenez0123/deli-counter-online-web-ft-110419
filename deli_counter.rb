@@ -19,6 +19,6 @@ def take_a_number(katz_deli,name)
     puts katz_deli[katz_deli.length-1]
   else katz_deli.length >= 1
     binding.pry
-        puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+        puts "Welcome, #{katz_deli[katz_deli.length-1]}. You are number #{katz_deli.length} in line."
   end
 end
