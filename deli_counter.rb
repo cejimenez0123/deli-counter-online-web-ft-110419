@@ -20,5 +20,5 @@ def take_a_number(katz_deli,name)
   else katz_deli.length >= 1
 puts "K"
   end
-  
+
 end
