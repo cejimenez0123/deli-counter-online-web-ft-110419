@@ -13,4 +13,3 @@ def line(katz_deli)
    puts statement
 end
 end
-
