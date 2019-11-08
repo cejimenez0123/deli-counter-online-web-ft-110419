@@ -13,11 +13,4 @@ def line(katz_deli)
    puts statement
 end
 end
-    statement = "The line is currently:"
-    katz_deli.each.with_index(1) do |customer,index|
-   y = "#{index}. #{customer}"
-  puts statement.concat(y)
 
-end
-end
-  end
