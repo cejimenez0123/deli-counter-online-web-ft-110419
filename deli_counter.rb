@@ -28,6 +28,4 @@ def now_serving(katz_deli,name)
     else katz_deli.length > 1
       puts "Currently serving #{name}"
 end
-  end
-
 end
