@@ -16,7 +16,8 @@ end
 def take_a_number(katz_deli,name)
   if katz_deli.length < 1
     katz_deli << name
-    puts katz_deli
+     customer = katz_deli[katz_deli.length-1]
+     puts customer
   else katz_deli.length >= 1
     binding.pry
         puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
