@@ -18,6 +18,6 @@ def take_a_number(katz_deli,name)
     katz_deli << name
      puts katz_deli[]
   else katz_deli.length >= 1
-    katz_deli.each { |customer| puts "Welcome, #{customer}. You are number #{katz_deli.size} in line."}
+    katz_deli.each { |customer| puts "Welcome, #{customer}. You are number #{katz_deli} in line."}
   end
 end
