@@ -18,6 +18,8 @@ def take_a_number(katz_deli,name)
     katz_deli << name
      puts name
   else katz_deli.length >= 1
-    katz_deli.each { |customer| puts "Welcome, #{customer}. You are number #{katz_deli.length} in line."}
+   y = "Welcome, #{name}."
+   j = "You are number #{katz_deli.length} in line."}
   end
+  puts y.concat(j)
 end
